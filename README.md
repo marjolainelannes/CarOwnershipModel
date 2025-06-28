@@ -12,7 +12,7 @@ The model requires two input data to be added to the `data/` folder (see the fur
 Input datasets: 
 * `data/Recensement_MOBPRO_2018.csv` is the public census dataset for professional mobility, available [online](https://www.insee.fr/fr/statistiques/5395749?sommaire=5395764&q=mobilit%C3%A9s+professionnelles+2018)
 * `data/Varmod_MOBPRO_2018.csv` contains the variable descriptions for this dataset (available online via the same link)
-* `data/EGT_2020/` contains the EGT 2018-2020 mobility survey dataset (to be added by the user)
+* `data/EGT_2020/` contains the EGT 2018-2020 mobility survey dataset
 
 ## Get started: data preprocessing
 
