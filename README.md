@@ -12,7 +12,7 @@ The model requires two input data to be added to the `data/` folder (see the fur
 Input datasets: 
 * `data/Recensement_MOBPRO_2018.csv` is the public census dataset for professional mobility, available [online](https://www.insee.fr/fr/statistiques/5395749?sommaire=5395764&q=mobilit%C3%A9s+professionnelles+2018)
 * `data/Varmod_MOBPRO_2018.csv` contains the variable descriptions for this dataset (available online via the same link)
-* `data/EGT_2020/` contains the EGT 2018-2020 mobility survey dataset
+* `data/EGT_2020/` contains the EGT 2018-2020 mobility survey dataset (*)
 
 ## Get started: data preprocessing
 
@@ -44,3 +44,5 @@ Finally, the trained model is saved as pickle file for each variable (Ncars, Fue
 The income effect was also tested using the script `src/validation/income_effect.py`.
 
 The trained classifiers for all predicted variables are provided in the `trained_model_Paris_EGT2020/` folder.
+
+(*) EGT H2020-Île-de-France Mobilités-OMNIL-DRIEAT, see [survey description online](https://omnil.fr/egt-h2020)
