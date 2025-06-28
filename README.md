@@ -17,7 +17,7 @@ Input datasets:
 ## Get started: data preprocessing
 
 Install the environment.
-In the `/input/` folder, we load the input data and generate summary statistics on it, as well as processing the training datasets.
+In the `src/input/` folder, we load the input data and generate summary statistics on it, as well as processing the training datasets.
 
 First, run the following scripts to load and clean the input datasets: `src/input/load_data_accessibility_FR.py` and `src/input/clean_municipalities.py`.
 You can generate statistics for the household mobility survey with the command `src/input/generate_statistics_EGT.py`.
