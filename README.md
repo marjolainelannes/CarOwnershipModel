@@ -39,9 +39,8 @@ Preprocessing codes description summary:
 
 We train, save and assess one model per predicted variable with EGT data running `src/validation/model_training_validation.py`.
 14 ML and DCM models are assessed and compared based on the MCC, then the best-performing model is trained on the entire dataset and saved.
-Model validation includes the confusion matrix, the area under the curve (AUC), logistic regression coefficients and feature importance for this model.
+Model validation includes odds ratios of the MNL, confusion matrix, learning curve and features importance for the best model.
 Finally, the trained model is saved as pickle file for each variable (Ncars, Fuel_type and Euro_norm).
-The income effect was also tested using the script `src/validation/income_effect.py`.
 
 The trained classifiers for all predicted variables are provided in the `trained_model_Paris_EGT2020/` folder.
 
